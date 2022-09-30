@@ -30,20 +30,31 @@
 
 //second conding challenge
 
-const weightMarkInKg = 95;
-const heightMarkInMetre = 1.88;
+// const weightMarkInKg = 95;
+// const heightMarkInMetre = 1.88;
 
-const weightJohnInKg = 85;
-const heightJohnInMetre = 1.76;
+// const weightJohnInKg = 85;
+// const heightJohnInMetre = 1.76;
 
-const MarkBMI = weightMarkInKg / heightMarkInMetre ** 2;
-const JohnBMI = weightJohnInKg / heightJohnInMetre ** 2;
+// const MarkBMI = weightMarkInKg / heightMarkInMetre ** 2;
+// const JohnBMI = weightJohnInKg / heightJohnInMetre ** 2;
 
-const markHigherBMI = (MarkBMI>JohnBMI);
-console.log(markHigherBMI);
+// const markHigherBMI = (MarkBMI>JohnBMI);
+// console.log(markHigherBMI);
 
-if(MarkBMI>JohnBMI){
-    console.log(`Mark's BMI (${MarkBMI}) is higher than John's BMI (${JohnBMI})!`);
+// if(MarkBMI>JohnBMI){
+//     console.log(`Mark's BMI (${MarkBMI}) is higher than John's BMI (${JohnBMI})!`);
+// }else{
+//     console.log(`John's BMI (${JohnBMI}) is higher than Mark's BMI (${MarkBMI})!`)
+// }
+
+
+//five falsy values in js : 0, undefined, '', null, NaN
+let numNeighbours  = Number(prompt("How many neighbour countries does your country have?"));
+if(numNeighbours===1){
+    console.log(`only 1 border`);
+}else if(numNeighbours>1){
+    console.log(`more than 1 border`);
 }else{
-    console.log(`John's BMI (${JohnBMI}) is higher than Mark's BMI (${MarkBMI})!`)
+    console.log(`No borders`);
 }
