@@ -50,11 +50,22 @@
 
 
 //five falsy values in js : 0, undefined, '', null, NaN
-let numNeighbours  = Number(prompt("How many neighbour countries does your country have?"));
-if(numNeighbours===1){
-    console.log(`only 1 border`);
-}else if(numNeighbours>1){
-    console.log(`more than 1 border`);
+// let numNeighbours  = Number(prompt("How many neighbour countries does your country have?"));
+// if(numNeighbours===1){
+//     console.log(`only 1 border`);
+// }else if(numNeighbours>1){
+//     console.log(`more than 1 border`);
+// }else{
+//     console.log(`No borders`);
+// }
+
+//logical operators
+let isLanguageEnglish = true;
+let isPopulationLessThan50Million = true;
+let isNotIsland = true;
+if(isLanguageEnglish && isPopulationLessThan50Million && isNotIsland){
+    console.log(`sarah should live in India`);
 }else{
-    console.log(`No borders`);
+    console.log(`India does not meet your criteria`);
 }
+
