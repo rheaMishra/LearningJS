@@ -60,12 +60,36 @@
 // }
 
 //logical operators
-let isLanguageEnglish = true;
-let isPopulationLessThan50Million = true;
-let isNotIsland = true;
-if(isLanguageEnglish && isPopulationLessThan50Million && isNotIsland){
-    console.log(`sarah should live in India`);
-}else{
-    console.log(`India does not meet your criteria`);
-}
+// let isLanguageEnglish = true;
+// let isPopulationLessThan50Million = true;
+// let isNotIsland = true;
+// if(isLanguageEnglish && isPopulationLessThan50Million && isNotIsland){
+//     console.log(`sarah should live in India`);
+// }else{
+//     console.log(`India does not meet your criteria`);
+// }
 
+
+
+
+
+//3rd coding challenge
+let minimumScore = 100;
+// let dolphinsAverageScore = (97+112+101)/3;
+let dolphinsAverageScore = (96+108+89)/3;
+
+let koalasAverageScore = (96+108+89)/3;
+// let koalasAverageScore = (109+95+123)/3;
+console.log(`Dolphins Score = ${dolphinsAverageScore}
+Koalas Score = ${koalasAverageScore}`)
+if(dolphinsAverageScore > koalasAverageScore && dolphinsAverageScore >= minimumScore){
+    console.log(`Dolphins are winner `);
+}else if (koalasAverageScore > dolphinsAverageScore && koalasAverageScore >=minimumScore ){
+    console.log(`Koalas are winner`);
+}else{
+    if(dolphinsAverageScore === koalasAverageScore  && dolphinsAverageScore >= minimumScore && koalasAverageScore >= min){
+    console.log(`Both win the trophy`);
+    }else{
+        console.log(`No one wins the trophy`);
+    }
+}
